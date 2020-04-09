@@ -1,0 +1,19 @@
+.heading-primary {
+    // border: .2rem solid red;
+    text-align: center;
+    // width: max-content;
+    
+    &--main {
+        white-space:pre;
+        display: block;
+        text-transform: uppercase;
+        font-size: $size-big;
+        margin-bottom: 1.3rem;
+    }
+    &--sub{
+        display: block;
+        font-size: $size-medium;
+        margin-bottom: 6rem;
+    }
+}
+

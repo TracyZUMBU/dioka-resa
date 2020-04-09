@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  color: #052C33; }
+
+.booking-confirmation {
+  height: 100vh;
+  position: relative; }
+
+.btn {
+  text-decoration: none;
+  padding: 1.9rem 10.45rem;
+  display: inline-block;
+  border-radius: 2.8rem; }
+  .btn:visited {
+    color: inherit; }
+  .btn--pink {
+    font-size: 1.65rem;
+    background-color: #FFF0F0; }
+
+.text-box {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.heading-primary {
+  text-align: center; }
+  .heading-primary--main {
+    white-space: pre;
+    display: block;
+    text-transform: uppercase;
+    font-size: 5.5rem;
+    margin-bottom: 1.3rem; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 1.65rem;
+    margin-bottom: 6rem; }
+
+.header-white {
+  height: 8rem;
+  border-bottom: black solid .2rem;
+  position: relative; }
+  .header-white__logo {
+    height: 1.85rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }

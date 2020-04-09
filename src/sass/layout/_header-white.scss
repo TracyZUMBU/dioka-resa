@@ -1,0 +1,14 @@
+.header-white {
+    height: 8rem;
+    border-bottom: black solid .2rem;
+   position: relative;
+    
+    &__logo {
+        height: 1.85rem;
+       @include absolute-center (50%) 
+    }
+
+  
+}
+
+   
