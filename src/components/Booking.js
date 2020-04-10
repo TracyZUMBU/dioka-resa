@@ -16,10 +16,10 @@ export default function Booking() {
         
     </div>
 
-        <div class="text-box">
+        <div class="text-box--center">
             <h1 class="heading-primary">
-                <span class=" heading-primary--main">merci pour ta réservation !</span>
-                <span class="heading-primary--sub">Tu as reçu un mail de confirmation dans ta boîte mail</span>
+                <span class=" heading-primary__main">merci pour ta réservation !</span>
+                <span class="heading-primary__sub">Tu as reçu un mail de confirmation dans ta boîte mail</span>
 
             </h1>
         

@@ -15,3 +15,30 @@
     text-align: center;
     
 }
+
+@mixin absolute-left ($left){
+    position: absolute;
+    top: 50%;
+    left: $left;
+    transform: translate(-50%, -70%);
+    text-align: left;
+    
+}
+
+@mixin heading ($color, $alignement, $marginB){
+    font-family: $font-BlackItalic;
+    font-size: $size-big;
+    text-transform: uppercase;
+    color:($color);
+    display:block;
+    text-align:($alignement);
+    margin-bottom:($marginB);
+}
+
+@mixin heading-sub ($marginB, $color) {
+    display: block;
+    font-size: $size-medium;
+    margin-bottom: ($marginB);
+    font-family: $font-Roman;
+    color: ($color)
+}

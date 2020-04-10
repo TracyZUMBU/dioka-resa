@@ -146,28 +146,62 @@ body {
     font-size: 1.65rem;
     background-color: #FFF0F0; }
 
-.text-box {
+.text-box--left {
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%, -70%);
+  text-align: left; }
+
+.text-box--center {
   position: absolute;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'XXThin'; }
+  position: absolute; }
 
-.heading-primary {
-  text-align: center; }
-  .heading-primary--main {
-    white-space: pre;
-    display: block;
-    text-transform: uppercase;
+.heading-primary ul {
+  list-style-type: none; }
+
+.heading-primary__main {
+  white-space: pre;
+  font-family: "BlackItalic";
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  color: #052C33;
+  display: block;
+  text-align: center;
+  margin-bottom: 1.3rem; }
+  .heading-primary__main--white {
+    font-family: "BlackItalic";
     font-size: 5.5rem;
-    margin-bottom: 1.3rem;
-    font-family: "BlackItalic"; }
-  .heading-primary--sub {
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    text-align: left;
+    margin-bottom: 3.3rem; }
+    .heading-primary__main--white:first-child {
+      margin-bottom: 0; }
+
+.heading-primary__sub {
+  display: block;
+  font-size: 1.65rem;
+  margin-bottom: 6rem;
+  font-family: "Roman";
+  color: #052C33; }
+  .heading-primary__sub--white {
     display: block;
     font-size: 1.65rem;
-    margin-bottom: 6rem;
-    font-family: "Roman"; }
+    margin-bottom: 0;
+    font-family: "Roman";
+    color: white; }
+
+.section-image {
+  background-image: url("../assets/pictures/image_1_propos.png");
+  height: 85vh;
+  background-position: bottom;
+  background-size: cover; }
 
 .header-white {
   height: 8rem;

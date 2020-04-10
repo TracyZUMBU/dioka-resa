@@ -1,21 +1,33 @@
+
 .heading-primary {
+
+    ul {
+        list-style-type: none;
+    }
     
-    text-align: center;
+    &__main {
+        white-space:pre;
+        @include heading ($color-green-dark, center, 1.3rem);
+
+        &--white {
+            @include heading (white, left, 3.3rem);
+
+            &:first-child {
+                margin-bottom:0;
+            }
+        }
+    }
 
     
-    &--main {
-        white-space:pre;
-        display: block;
-        text-transform: uppercase;
-        font-size: $size-big;
-        margin-bottom: 1.3rem;
-        font-family: $font-BlackItalic;
-    }
-    &--sub{
-        display: block;
-        font-size: $size-medium;
-        margin-bottom: 6rem;
-        font-family: $font-Roman;
+    &__sub{
+        @include heading-sub (6rem, $color-green-dark);
+
+        &--white{
+            @include heading-sub (0, white);
+
+         
+        }
     }
 }
+
 
