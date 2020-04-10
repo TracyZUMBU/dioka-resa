@@ -1,7 +1,9 @@
 import React from 'react'
 import logodioka from '../assets/pictures/logo-dioka.svg'
 
+
 export default function Booking() {
+  
     return (
         <>
             
@@ -16,8 +18,8 @@ export default function Booking() {
 
         <div class="text-box">
             <h1 class="heading-primary">
-                <span class=" heading-primary--main">merci pour ta réservation</span>
-                <span class="heading-primary--sub">tu as reçu un mail de confirmation dans ta boite mail</span>
+                <span class=" heading-primary--main">merci pour ta réservation !</span>
+                <span class="heading-primary--sub">Tu as reçu un mail de confirmation dans ta boîte mail</span>
 
             </h1>
         
