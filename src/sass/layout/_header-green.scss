@@ -1,0 +1,39 @@
+.header-green {
+    height: 8rem; 
+   background-color: $color-green-dark;
+   padding-left: 6.3rem ;
+   padding-right: 8.5rem;
+   position: sticky, -webkit-sticky;
+  
+    
+    &__logo {
+    height: 2.5rem;
+    margin-top: 2.5rem;
+    float: left;
+    }
+
+    nav {
+        float: right;
+        color: white;
+        font-size: $size-small;
+        margin-top: 3rem;
+
+        
+        ul {
+            
+            list-style-type: none;
+
+            li {
+                display: inline-block;
+                margin-left : 8rem;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+        }
+    }
+
+} 

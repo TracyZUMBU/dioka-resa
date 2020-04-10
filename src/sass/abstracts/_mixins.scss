@@ -16,11 +16,11 @@
     
 }
 
-@mixin absolute-left ($left){
+@mixin absolute-left ($left, $translateA, $translateB){
     position: absolute;
     top: 50%;
     left: $left;
-    transform: translate(-50%, -70%);
+    transform: translate($translateA, $translateB);
     text-align: left;
     
 }
