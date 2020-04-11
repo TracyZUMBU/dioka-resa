@@ -1,11 +1,16 @@
 import React from 'react'
 import logoDioka from '../assets/pictures/logo-dioka-blanc.svg'
+import peigne from '../assets/icons/peigne_icone.png'
+import avatar from '../assets/icons/avatar_icone.png'
+import etoiles from '../assets/icons/etoiles_icone.png'
+import charte from '../assets/pictures/charte_logo.png'
+
 
 export default function APropos() {
     return (
         <>
         <div class="header-green">
-            <img src={logoDioka} alt='' class='header-green__logo'></img>
+            <img src={logoDioka} alt='logo of dioka' class='header-green__logo'></img>
             <nav>
                 <ul>
                     <li><a href='#'>A propos</a></li>
@@ -33,17 +38,19 @@ export default function APropos() {
 
         <div class="presentation">
 
-            <div class="presentation__img-box">
-                <img src={''} alt="picture of sisters" class="presentation__img"></img>
-            </div>
+            <div class="presentation__img"></div>
 
             <div class="presentation__story">
                 {/* /*mixin heading*/ }
                 <span></span> 
                 <span></span>
                 {/* /*mixin heading-sub*/ }
-                <span></span>
-                <span></span>
+                <span>Depuis que nous sommes petites, nos cheveux crépus nous ont fait rire et pleurer. Les mauvaises expériences chez le coiffeur ou dans la salle de bain, on connait ! Nous échangeons produits, bonnes adresses et conseils depuis des années. </span>
+                <span>C'est ainsi qu'est né Dioka, une plateforme à notre nom et à notre image.</span>
+                <span>Grâce à une sélection pointue et qualitative de salons et de produits, nous souhaitons en finir avec les galères capillaires. Nous voulons que toutes les femmes, peu importe leurs boucles et leurs origines, puissent accéder à la qualité et ce en toute confiance. </span>
+
+                <span>Daba et Seynabou Diokhané</span>
+
             </div>
 
             <div class="presentation__goal-box">
@@ -59,16 +66,62 @@ export default function APropos() {
         </div>
 
         <div class="section-image--curly">
-            <div class="text-box--center">
+            <div class="text-box--center text-box--center--margin">
 
             <div class='heading-primary'>
-                <span class="heading-primary__main--white"></span>
-                <span class="heading-primary__main--white"></span>
-                <span class="heading-primary__main--white"></span>
-                <span class="heading-primary__main--white"></span>
-                <span class="heading-primary__main--white"></span>
+                <span class="heading-primary__main--white heading-primary__main--white--center">nous sommes convaincues</span>
+                <span class="heading-primary__main--white heading-primary__main--white--center">que des femmes bien coiffées</span>
+                <span class="heading-primary__main--white heading-primary__main--white--center">sont des femmes capables de</span>
+                <span class="heading-primary__main--white heading-primary__main--white--center">réaliser leurs rêves,</span>
+                <span class="heading-primary__main--white heading-primary__main--white--center">hair is power !</span>
             </div>
             </div>
+        </div>
+
+        <div class="last-section">
+
+            <div class="charte">
+                <img class="charte__img" src={charte}></img>
+            </div>
+
+
+            <div class="assets">
+                <div class="assets__box">
+                    <img class="assets__logo" alt="logo of comb" src={peigne}></img>
+
+                    <div class="heading-secondary">
+                        <span class="heading-secondary__main">Un savoir-faire validé</span>
+                        <span class="heading-secondary__sub">Réserver des prestations</span>
+                        <span class="heading-secondary__sub">auprès de coiffeur.se.s aux</span>
+                        <span class="heading-secondary__sub">techniques validées</span>
+                    </div>
+                </div>
+                
+               
+                <div
+                class="assets__box">
+                    <img class="assets__logo" alt="logo of stars" src={etoiles}></img>
+                    <div class="heading-secondary">
+                        <span class="heading-secondary__main">Des salons entretenus</span>
+                        <span class="heading-secondary__sub">Faites vous chouchoutez</span>
+                        <span class="heading-secondary__sub">dans des salons</span>
+                        <span class="heading-secondary__sub">propes et soignés</span>
+                    </div>
+                </div>
+
+                <div
+                class="assets__box">
+                    <img class="assets__logo" alt="logo of avatar" src={avatar}></img>
+
+                    <div class="heading-secondary">
+                        <span class="heading-secondary__main">Un service client assuré</span>
+                        <span class="heading-secondary__sub">Passez un agréable</span>
+                        <span class="heading-secondary__sub">moment de par un véritable</span>
+                        <span class="heading-secondary__sub">professionnalisme</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 

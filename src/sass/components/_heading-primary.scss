@@ -12,9 +12,15 @@
         &--white {
             @include heading (white, left, 3.3rem);
 
+           &--center {
+               text-align: center;
+               margin-bottom: 0;
+           }
+
             &:first-child {
                 margin-bottom:0;
             }
+
         }
     }
 
