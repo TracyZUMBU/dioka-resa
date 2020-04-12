@@ -74,10 +74,10 @@
 
 .presentation {
     display: flex;
+    width: 100%;
 }
 
 .presentation-box {
-    border:red 2px solid;
     display:flex;
     flex-direction: column;
     width: 50%;
@@ -85,7 +85,12 @@
 
     .presentation-box__story {
         
-        padding:14rem;
+        padding:8rem 10rem ;
+        
+        span.name {
+            @extend %heading;
+        }
+
         p{
             @extend %heading;
         }
@@ -106,11 +111,13 @@
             @include heading-sub(0,$color-green-dark);
             text-align: center;
             margin: 3.3rem 0 1.4rem 0;
+
+        
         }
 
         span:nth-child(4) {
-            @extend %heading;
-            font-size: 1.2rem;
+            font-size: $size-medium;
+            margin:2rem auto;
         }
 
 
@@ -120,7 +127,7 @@
 .presentation__img {
     background-image: url("../assets/pictures/sisters.jpg");
         width: 100%;
-        padding-top: 73%;
+        padding-top: 64%;
         background-size: cover;
         background-position: center;
        
@@ -129,24 +136,49 @@
 }
 
 
+}
+
+
+
 .presentation__goal-box {
-    border:blue 3px dotted;
+    background-color: $color-pink;
+    
     width: 50%;
+    height: max-content;
+    
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    
 }
 
+.presentation__goal{
+    
+    margin: 23.5rem auto 15.3rem auto;
 
-
-
-
-
-
-
-
+    p:nth-child(1) {
+        @include heading-sub (0,$color-green-dark);
+        font-size:$size-medium;
+    }
+    
 }
+
+.presentation__goal {
+display: flex;
+flex-direction: column;
+align-items: center;
+    p:nth-child(2){
+        margin-top: 2rem;
+        text-align: center;
+        font-family: $font-Medium;
+        font-size: 2.75rem;
+   }
+}
+
 
 //à supprimer quand il y aura les bonnes icones.
 div.assets__box:nth-child(1) > img:nth-child(1) {
-    width: 3rem;
+    width: 2.5rem;
    }
 
 

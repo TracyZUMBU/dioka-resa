@@ -158,13 +158,13 @@ span {
     flex-direction: column;
     align-items: center; }
     .assets__box:nth-child(1) {
-      padding-right: 13rem; }
+      padding-right: 15rem; }
     .assets__box:nth-child(2) {
       border-left: 0.5px #707070 solid;
       border-right: 0.5px #707070 solid;
-      padding: 0 13rem; }
+      padding: 0 15rem; }
     .assets__box:nth-child(3) {
-      padding-left: 13rem; }
+      padding-left: 15rem; }
   .assets__logo {
     width: 4rem; }
 
@@ -182,20 +182,20 @@ span {
     font-family: "Roman"; }
 
 .presentation {
-  display: flex; }
+  display: flex;
+  width: 100%; }
 
 .presentation-box {
-  border: red 2px solid;
   display: flex;
   flex-direction: column;
   width: 50%; }
   .presentation-box .presentation-box__story {
-    padding: 14rem; }
+    padding: 8rem 10rem; }
     .presentation-box .presentation-box__story p:nth-child(2) {
       font-size: 3.6rem; }
     .presentation-box .presentation-box__story p:nth-child(1) {
       font-size: 3.6rem; }
-    .presentation-box .presentation-box__story p, .presentation-box .presentation-box__story span:nth-child(4) {
+    .presentation-box .presentation-box__story span.name, .presentation-box .presentation-box__story p {
       font-family: "BlackItalic";
       font-size: 5.5rem;
       text-transform: uppercase;
@@ -212,19 +212,45 @@ span {
       text-align: center;
       margin: 3.3rem 0 1.4rem 0; }
     .presentation-box .presentation-box__story span:nth-child(4) {
-      font-size: 1.2rem; }
+      font-size: 1.65rem;
+      margin: 2rem auto; }
   .presentation-box .presentation__img {
     background-image: url("../assets/pictures/sisters.jpg");
     width: 100%;
-    padding-top: 73%;
+    padding-top: 64%;
     background-size: cover;
     background-position: center; }
-  .presentation-box .presentation__goal-box {
-    border: blue 3px dotted;
-    width: 50%; }
+
+.presentation__goal-box {
+  background-color: #FFF0F0;
+  width: 50%;
+  height: max-content;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0; }
+
+.presentation__goal {
+  margin: 23.5rem auto 15.3rem auto; }
+  .presentation__goal p:nth-child(1) {
+    display: block;
+    font-size: 1.65rem;
+    margin-bottom: 0;
+    font-family: "Roman";
+    color: #052C33;
+    font-size: 1.65rem; }
+
+.presentation__goal {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .presentation__goal p:nth-child(2) {
+    margin-top: 2rem;
+    text-align: center;
+    font-family: "Medium";
+    font-size: 2.75rem; }
 
 div.assets__box:nth-child(1) > img:nth-child(1) {
-  width: 3rem; }
+  width: 2.5rem; }
 
 .btn {
   text-decoration: none;

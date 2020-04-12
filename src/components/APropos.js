@@ -47,12 +47,14 @@ export default function APropos() {
                 <p>de soeurs...</p>
                 {/* /*mixin heading-sub*/ }
                 <div class="presentation-box__story__content">
-                <span>Depuis que nous sommes petites, nos cheveux crépus nous ont fait rire et pleurer. Les mauvaises expériences chez le coiffeur ou dans la salle de bain, on connait ! Nous échangeons produits, bonnes adresses et conseils depuis des années. </span>
+                <span>Depuis que nous sommes petites, nos cheveux crépus nous</span> <span>ont fait rire et pleurer. Les mauvaises expériences chez le </span>coiffeur  ou dans la salle de bain, on connait !Nous échangeons <span>produits, bonnes adresses et conseils depuis des années. </span>
+
                 <span>C'est ainsi qu'est né Dioka, une plateforme à notre nom et à notre image.</span>
-                <span>Grâce à une sélection pointue et qualitative de salons et de produits, nous souhaitons en finir avec les galères capillaires. Nous voulons que toutes les femmes, peu importe leurs boucles et leurs origines, puissent accéder à la qualité et ce en toute confiance. </span>
+
+                <span>Grâce à une sélection pointue et qualitative de salons et de <span>produits, nous souhaitons en finir avec les galères capillaires.</span><span> Nous voulons que toutes les femmes, peu importe leurs boucleset leurs </span>origines, puissent accéder à la qualité et ce en toute confiance. </span>
                 </div>
 
-                <span>Daba et Seynabou Diokhané</span>
+                <span class="name">Daba et Seynabou Diokhané</span>
 
             </div>
             </div>
@@ -60,9 +62,16 @@ export default function APropos() {
             <div class="presentation__goal-box">
                 <div class="presentation__goal">
                     {/* /*mixin heading-sub*/ }
-                    <span>Notre objectif</span>
+                    <p>Notre objectif</p>
                     {/* créer une mixin avec Medium */}
-                    <span>Que toutes les femmes aux cheveux crépus, frisés et bouclés puissent se faire coiffer facilement et de manière qualitative.</span>
+                    <p>
+                    <span>Que toutes les femmes aux</span>
+                     <span>cheveux crépus, frisés et</span>
+                      <span>bouclés puissent se faire </span>
+                      <span>coiffer facilement et de </span>
+                      <span>manière qualitative.</span>
+
+                    </p>
                 </div>
 
 
