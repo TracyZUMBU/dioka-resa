@@ -1,0 +1,20 @@
+.section-image {
+background-image: url("../assets/pictures/image_1_propos.png");
+height: 85vh;
+background-position: bottom;
+background-size: cover;
+position: relative;
+
+&--curly {
+    background-image: url("../assets/pictures/image_3_aPropos.png");
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+    white-space: nowrap;
+    background-position: top; //modifier quand quand y aura la bonne photo
+    
+
+}
+
+}
+

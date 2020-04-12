@@ -2,6 +2,7 @@
 $color-green-dark:#052C33;
 $color-pink:#FFF0F0;
 $color-white:#FFFFFF;
+$color-light-grey:#707070;
 
 //typo
 $typo-neue-black:'Neue Haas Grotesk Display Black Italic';
@@ -11,13 +12,16 @@ $typo-neue-medium:'Neue Haas Grotesk Display Black Italic';
 //font-size
 $size-big:5.5rem;
 $size-medium:1.65rem;
+$size-small: 1.23rem;
 
+//margin
+$padding-assets:15rem;
 
 //font-family
 $font-BlackItalic:'BlackItalic';
 $font-Roman:'Roman';
 $font-Medium:'Medium';
-$font-Medium:'Light';
+$font-Light:'Light';
 $font-ThinItalic:'ThinItalic';
 $font-RomanItalic:'RomanItalic';
 $font-BoldItalic:'BoldItalic';

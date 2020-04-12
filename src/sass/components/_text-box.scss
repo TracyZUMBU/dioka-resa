@@ -1,7 +1,20 @@
 
 
 .text-box {
-    @include absolute-center (55%);
-    font-family: 'XXThin';
+    
+    &--left {
+        
+        @include absolute-left (18%, -50%, -50%);
+        
+    }
+    
+    &--center {
+       
+        @include absolute-center (55%);
+        position: absolute;
+
+       
+    }
+  
     
 }

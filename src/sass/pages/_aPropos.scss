@@ -1,0 +1,187 @@
+.last-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.charte {
+    margin-top: 16.3rem;
+
+&__img {
+    height: 17rem;
+}
+
+}
+
+.assets {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20rem;
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &:nth-child(1) {
+            padding-right: $padding-assets;
+        }
+
+        &:nth-child(2) {
+            
+                border-left: .5px $color-light-grey solid;
+                border-right: .5px $color-light-grey solid;
+                padding: 0 $padding-assets;
+               
+        }
+
+        &:nth-child(3) {
+            padding-left: $padding-assets;
+        }
+
+    }
+
+    &__logo {
+        width: 4rem;
+    }
+
+   
+}
+
+
+.heading-secondary {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__main {
+        font-family: $font-Medium;
+        font-size: 2rem;
+        margin-bottom:1.9rem;
+        margin-top:3.7rem;
+    }
+
+    &__sub {
+        font-size:$size-medium;
+        font-family: $font-Roman;
+    }
+
+    
+}
+
+.presentation {
+    display: flex;
+    width: 100%;
+}
+
+.presentation-box {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    
+
+    .presentation-box__story {
+        
+        padding:8rem 10rem ;
+        
+        span.name {
+            @extend %heading;
+        }
+
+        p{
+            @extend %heading;
+        }
+
+        p:nth-child(2) {
+            font-size: 3.6rem;
+        }
+        p:nth-child(1) {
+            font-size: 3.6rem;
+        }
+           
+        %heading {
+            @include heading($color-green-dark,center,0);
+        }
+
+        &__content{
+            
+            @include heading-sub(0,$color-green-dark);
+            text-align: center;
+            margin: 3.3rem 0 1.4rem 0;
+
+        
+        }
+
+        span:nth-child(4) {
+            font-size: $size-medium;
+            margin:2rem auto;
+        }
+
+
+       
+    }
+
+.presentation__img {
+    background-image: url("../assets/pictures/sisters.jpg");
+        width: 100%;
+        padding-top: 64%;
+        background-size: cover;
+        background-position: center;
+       
+       
+    
+}
+
+
+}
+
+
+
+.presentation__goal-box {
+    background-color: $color-pink;
+    
+    width: 50%;
+    height: max-content;
+    
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    
+}
+
+.presentation__goal{
+    
+    margin: 23.5rem auto 15.3rem auto;
+
+    p:nth-child(1) {
+        @include heading-sub (0,$color-green-dark);
+        font-size:$size-medium;
+    }
+    
+}
+
+.presentation__goal {
+display: flex;
+flex-direction: column;
+align-items: center;
+    p:nth-child(2){
+        margin-top: 2rem;
+        text-align: center;
+        font-family: $font-Medium;
+        font-size: 2.75rem;
+   }
+}
+
+
+//à supprimer quand il y aura les bonnes icones.
+div.assets__box:nth-child(1) > img:nth-child(1) {
+    width: 2.5rem;
+   }
+
+
+
+
+
