@@ -53,7 +53,7 @@ export default function APropos() {
 
                 <span>Grâce à une sélection pointue et qualitative de salons et de <span>produits, nous souhaitons en finir avec les galères capillaires.</span><span> Nous voulons que toutes les femmes, peu importe leurs boucles et leurs </span>origines, puissent accéder à la qualité et ce en toute confiance. </span>
                 </div>
-
+                
                 <span class="name">Daba et Seynabou Diokhané</span>
 
             </div>
