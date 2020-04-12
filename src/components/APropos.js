@@ -47,11 +47,11 @@ export default function APropos() {
                 <p>de soeurs...</p>
                 {/* /*mixin heading-sub*/ }
                 <div class="presentation-box__story__content">
-                <span>Depuis que nous sommes petites, nos cheveux crépus nous</span> <span>ont fait rire et pleurer. Les mauvaises expériences chez le </span>coiffeur  ou dans la salle de bain, on connait !Nous échangeons <span>produits, bonnes adresses et conseils depuis des années. </span>
+                <span>Depuis que nous sommes petites, nos cheveux crépus nous</span> <span>ont fait rire et pleurer. Les mauvaises expériences chez le </span>coiffeur  ou dans la salle de bain, on connait! Nous échangeons <span>produits, bonnes adresses et conseils depuis des années. </span>
 
                 <span>C'est ainsi qu'est né Dioka, une plateforme à notre nom et à notre image.</span>
 
-                <span>Grâce à une sélection pointue et qualitative de salons et de <span>produits, nous souhaitons en finir avec les galères capillaires.</span><span> Nous voulons que toutes les femmes, peu importe leurs boucleset leurs </span>origines, puissent accéder à la qualité et ce en toute confiance. </span>
+                <span>Grâce à une sélection pointue et qualitative de salons et de <span>produits, nous souhaitons en finir avec les galères capillaires.</span><span> Nous voulons que toutes les femmes, peu importe leurs boucles et leurs </span>origines, puissent accéder à la qualité et ce en toute confiance. </span>
                 </div>
 
                 <span class="name">Daba et Seynabou Diokhané</span>
