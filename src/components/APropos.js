@@ -65,7 +65,8 @@ export default function APropos() {
             </div>
         </div>
 
-        <div class="section-image--curly">
+        
+        <div class="section-image section-image--curly">
             <div class="text-box--center text-box--center--margin">
 
             <div class='heading-primary'>
@@ -76,6 +77,8 @@ export default function APropos() {
                 <span class="heading-primary__main--white heading-primary__main--white--center">hair is power !</span>
             </div>
             </div>
+        
+
         </div>
 
         <div class="last-section">

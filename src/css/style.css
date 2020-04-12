@@ -214,7 +214,8 @@ span {
     background-size: cover;
     height: 75vh;
     position: relative;
-    white-space: nowrap; }
+    white-space: nowrap;
+    background-position: top; }
 
 .last-section {
   display: flex;
@@ -225,7 +226,7 @@ span {
 .charte {
   margin-top: 16.3rem; }
   .charte__img {
-    height: 19rem; }
+    height: 17rem; }
 
 .assets {
   margin-top: 12rem;
@@ -259,6 +260,9 @@ span {
   .heading-secondary__sub {
     font-size: 1.65rem;
     font-family: "Roman"; }
+
+div.assets__box:nth-child(1) > img:nth-child(1) {
+  width: 3rem; }
 
 .header-white {
   height: 8rem;

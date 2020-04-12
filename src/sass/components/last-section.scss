@@ -9,7 +9,7 @@
     margin-top: 16.3rem;
 
 &__img {
-    height: 19rem;
+    height: 17rem;
 }
 
 }
@@ -70,3 +70,9 @@
 
     
 }
+
+//à supprimer quand il y aura les bonnes icones.
+div.assets__box:nth-child(1) > img:nth-child(1) {
+    width: 3rem;
+   }
+   
