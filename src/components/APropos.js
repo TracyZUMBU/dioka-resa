@@ -38,6 +38,7 @@ export default function APropos() {
 
         <div class="presentation">
 
+            <div>
             <div class="presentation__img"></div>
 
             <div class="presentation__story">
@@ -52,6 +53,7 @@ export default function APropos() {
                 <span>Daba et Seynabou Diokhané</span>
 
             </div>
+            </div>
 
             <div class="presentation__goal-box">
                 <div class="presentation__goal">
@@ -63,8 +65,8 @@ export default function APropos() {
 
 
             </div>
-        </div>
 
+        </div>
         
         <div class="section-image section-image--curly">
             <div class="text-box--center text-box--center--margin">
