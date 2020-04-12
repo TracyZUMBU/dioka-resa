@@ -38,17 +38,19 @@ export default function APropos() {
 
         <div class="presentation">
 
-            <div>
+            <div class="presentation-box">
             <div class="presentation__img"></div>
 
-            <div class="presentation__story">
+            <div class="presentation-box__story">
                 {/* /*mixin heading*/ }
-                <span></span> 
-                <span></span>
+                <p>une histoire</p> 
+                <p>de soeurs...</p>
                 {/* /*mixin heading-sub*/ }
+                <div class="presentation-box__story__content">
                 <span>Depuis que nous sommes petites, nos cheveux crépus nous ont fait rire et pleurer. Les mauvaises expériences chez le coiffeur ou dans la salle de bain, on connait ! Nous échangeons produits, bonnes adresses et conseils depuis des années. </span>
                 <span>C'est ainsi qu'est né Dioka, une plateforme à notre nom et à notre image.</span>
                 <span>Grâce à une sélection pointue et qualitative de salons et de produits, nous souhaitons en finir avec les galères capillaires. Nous voulons que toutes les femmes, peu importe leurs boucles et leurs origines, puissent accéder à la qualité et ce en toute confiance. </span>
+                </div>
 
                 <span>Daba et Seynabou Diokhané</span>
 
@@ -58,9 +60,9 @@ export default function APropos() {
             <div class="presentation__goal-box">
                 <div class="presentation__goal">
                     {/* /*mixin heading-sub*/ }
-                    <span></span>
+                    <span>Notre objectif</span>
                     {/* créer une mixin avec Medium */}
-                    <span></span>
+                    <span>Que toutes les femmes aux cheveux crépus, frisés et bouclés puissent se faire coiffer facilement et de manière qualitative.</span>
                 </div>
 
 

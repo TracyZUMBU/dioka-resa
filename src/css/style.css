@@ -137,52 +137,89 @@ span {
   height: 100vh;
   position: relative; }
 
-.last-section {
+.presentation {
+  display: flex; }
+
+.presentation-box {
+  border: red 2px solid;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.charte {
-  margin-top: 16.3rem; }
-  .charte__img {
-    height: 17rem; }
-
-.assets {
-  margin-top: 12rem;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20rem; }
-  .assets__box {
+  width: 50%; }
+  .presentation-box .presentation-box__story {
+    padding: 14rem; }
+    .presentation-box .presentation-box__story p:nth-child(2) {
+      font-size: 3.6rem; }
+    .presentation-box .presentation-box__story p:nth-child(1) {
+      font-size: 3.6rem; }
+    .presentation-box .presentation-box__story p, .presentation-box .presentation-box__story span:nth-child(4) {
+      font-family: "BlackItalic";
+      font-size: 5.5rem;
+      text-transform: uppercase;
+      color: #052C33;
+      display: block;
+      text-align: center;
+      margin-bottom: 0; }
+    .presentation-box .presentation-box__story__content {
+      display: block;
+      font-size: 1.65rem;
+      margin-bottom: 0;
+      font-family: "Roman";
+      color: #052C33;
+      text-align: center;
+      margin: 3.3rem 0 1.4rem 0; }
+    .presentation-box .presentation-box__story span:nth-child(4) {
+      font-size: 1.2rem; }
+  .presentation-box .presentation__img {
+    background-image: url("../assets/pictures/sisters.jpg");
+    width: 100%;
+    padding-top: 73%;
+    background-size: cover;
+    background-position: center; }
+  .presentation-box .presentation__goal-box {
+    border: blue 3px dotted;
+    width: 50%; }
+  .presentation-box .last-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .presentation-box .charte {
+    margin-top: 16.3rem; }
+    .presentation-box .charte__img {
+      height: 17rem; }
+  .presentation-box .assets {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20rem; }
+    .presentation-box .assets__box {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .presentation-box .assets__box:nth-child(1) {
+        padding-right: 13rem; }
+      .presentation-box .assets__box:nth-child(2) {
+        border-left: 0.5px #707070 solid;
+        border-right: 0.5px #707070 solid;
+        padding: 0 13rem; }
+      .presentation-box .assets__box:nth-child(3) {
+        padding-left: 13rem; }
+    .presentation-box .assets__logo {
+      width: 4rem; }
+  .presentation-box .heading-secondary {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .assets__box:nth-child(1) {
-      padding-right: 13rem; }
-    .assets__box:nth-child(2) {
-      border-left: 0.5px #707070 solid;
-      border-right: 0.5px #707070 solid;
-      padding: 0 13rem; }
-    .assets__box:nth-child(3) {
-      padding-left: 13rem; }
-  .assets__logo {
-    width: 4rem; }
-
-.heading-secondary {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .heading-secondary__main {
-    font-family: "Medium";
-    font-size: 2rem;
-    margin-bottom: 1.9rem;
-    margin-top: 3.7rem; }
-  .heading-secondary__sub {
-    font-size: 1.65rem;
-    font-family: "Roman"; }
-
-div.assets__box:nth-child(1) > img:nth-child(1) {
-  width: 3rem; }
+    .presentation-box .heading-secondary__main {
+      font-family: "Medium";
+      font-size: 2rem;
+      margin-bottom: 1.9rem;
+      margin-top: 3.7rem; }
+    .presentation-box .heading-secondary__sub {
+      font-size: 1.65rem;
+      font-family: "Roman"; }
+  .presentation-box div.assets__box:nth-child(1) > img:nth-child(1) {
+    width: 3rem; }
 
 .btn {
   text-decoration: none;

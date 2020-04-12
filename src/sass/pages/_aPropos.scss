@@ -1,3 +1,67 @@
+.presentation {
+    display: flex;
+}
+
+.presentation-box {
+    border:red 2px solid;
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    
+
+    .presentation-box__story {
+        
+        padding:14rem;
+        p{
+            @extend %heading;
+        }
+
+        p:nth-child(2) {
+            font-size: 3.6rem;
+        }
+        p:nth-child(1) {
+            font-size: 3.6rem;
+        }
+           
+        %heading {
+            @include heading($color-green-dark,center,0);
+        }
+
+        &__content{
+            
+            @include heading-sub(0,$color-green-dark);
+            text-align: center;
+            margin: 3.3rem 0 1.4rem 0;
+        }
+
+        span:nth-child(4) {
+            @extend %heading;
+            font-size: 1.2rem;
+        }
+
+
+       
+    }
+
+.presentation__img {
+    background-image: url("../assets/pictures/sisters.jpg");
+        width: 100%;
+        padding-top: 73%;
+        background-size: cover;
+        background-position: center;
+       
+       
+    
+}
+
+
+.presentation__goal-box {
+    border:blue 3px dotted;
+    width: 50%;
+}
+
+
+
 .last-section {
     display:flex;
     flex-direction: column;
@@ -76,3 +140,4 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
     width: 3rem;
    }
    
+}
