@@ -227,7 +227,8 @@ span {
   height: max-content;
   position: sticky;
   position: -webkit-sticky;
-  top: 8rem; }
+  top: 8rem;
+  height: 100vh; }
 
 .presentation__goal {
   margin: 23.5rem auto 15.3rem auto; }
