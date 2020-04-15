@@ -188,7 +188,8 @@ span {
 .presentation-box {
   display: flex;
   flex-direction: column;
-  width: 50%; }
+  width: 50%;
+  border: 2px solid red; }
   .presentation-box .presentation-box__story {
     padding: 8rem 10rem;
     white-space: nowrap; }
