@@ -1,10 +1,11 @@
+
 import React from 'react'
 import logoDioka from '../assets/pictures/logo-dioka-blanc.svg'
 
 function HeaderGreen() {
 return (
     <>
-            <div class="header-green ">
+            <div class="header-green header-green--static">
             <img src={logoDioka} alt='logo of dioka' class='header-green__logo'></img>
             <nav>
                 <ul>

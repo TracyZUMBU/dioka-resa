@@ -42,3 +42,21 @@
     font-family: $font-Roman;
     color: ($color)
 }
+
+@mixin backgroundImage ($paddingT, $backPosition) {
+    width: 100%;
+    padding-top:$paddingT ;
+    background-size: cover;
+    background-position: $backPosition;
+}
+
+@mixin header-green ($position) {
+    height: 8rem; 
+    background-color: $color-green-dark;
+    padding-left: 6.3rem ;
+    padding-right: 8.5rem;
+    position: -webkit-sticky;
+    position: $position;
+    top: 0;
+    z-index: 1;
+}

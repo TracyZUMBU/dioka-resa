@@ -337,6 +337,23 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
     white-space: nowrap;
     background-position: top; }
 
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+  .login__box {
+    display: flex; }
+    .login__box__image {
+      width: 50%;
+      position: sticky;
+      border: 2px red solid;
+      background-image: url(../assets/pictures/image_3_home.png);
+      background-position: bottom;
+      background-size: cover; }
+    .login__box__content {
+      width: 50%;
+      position: relative; }
+
 .header-white {
   height: 8rem;
   border-bottom: black solid .1rem;
@@ -358,6 +375,16 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
   position: sticky;
   top: 0;
   z-index: 1; }
+  .header-green--static {
+    grid-area: header;
+    height: 8rem;
+    background-color: #052C33;
+    padding-left: 6.3rem;
+    padding-right: 8.5rem;
+    position: -webkit-sticky;
+    position: static;
+    top: 0;
+    z-index: 1; }
   .header-green__logo {
     height: 2.5rem;
     margin-top: 2.5rem;

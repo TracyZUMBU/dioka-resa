@@ -1,0 +1,27 @@
+.login {
+ 
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  &__box {
+    
+    display: flex;
+   
+
+    &__image {
+      width: 50%;
+      
+      position : sticky;
+      border: 2px red solid;
+      background-image: url(../assets/pictures/image_3_home.png);
+      background-position: bottom;
+      background-size: cover;
+    }
+
+    &__content {
+      width: 50%;
+      position: relative;
+    }
+  }
+}
