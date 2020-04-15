@@ -158,13 +158,13 @@ span {
     flex-direction: column;
     align-items: center; }
     .assets__box:nth-child(1) {
-      padding-right: 15rem; }
+      padding-right: 11rem; }
     .assets__box:nth-child(2) {
       border-left: 0.5px #707070 solid;
       border-right: 0.5px #707070 solid;
-      padding: 0 15rem; }
+      padding: 0 11rem; }
     .assets__box:nth-child(3) {
-      padding-left: 15rem; }
+      padding-left: 11rem; }
   .assets__logo {
     width: 4rem; }
 
@@ -190,7 +190,8 @@ span {
   flex-direction: column;
   width: 50%; }
   .presentation-box .presentation-box__story {
-    padding: 8rem 10rem; }
+    padding: 8rem 10rem;
+    white-space: nowrap; }
     .presentation-box .presentation-box__story p:nth-child(2) {
       font-size: 3.6rem; }
     .presentation-box .presentation-box__story p:nth-child(1) {
@@ -224,14 +225,16 @@ span {
 .presentation__goal-box {
   background-color: #FFF0F0;
   width: 50%;
-  height: max-content;
+  height: 100vh;
   position: sticky;
   position: -webkit-sticky;
+
   top: 8rem;
   height: 100vh; }
 
+
 .presentation__goal {
-  margin: 23.5rem auto 15.3rem auto; }
+  margin: 19.5rem auto 15.3rem auto; }
   .presentation__goal p:nth-child(1) {
     display: block;
     font-size: 1.65rem;
@@ -321,7 +324,7 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
 
 .section-image {
   background-image: url("../assets/pictures/image_1_propos.png");
-  height: 85vh;
+  height: 90vh;
   background-position: bottom;
   background-size: cover;
   position: relative; }

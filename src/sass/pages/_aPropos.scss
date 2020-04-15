@@ -86,6 +86,7 @@
     .presentation-box__story {
         
         padding:8rem 10rem ;
+        white-space: nowrap;
         
         span.name {
             @extend %heading;
@@ -144,18 +145,20 @@
     background-color: $color-pink;
     
     width: 50%;
-    height: max-content;
+    height: 100vh;
     
     position: sticky;
     position: -webkit-sticky;
+
     top:$height-headerGreen;
     height: 100vh;
+
     
 }
 
 .presentation__goal{
     
-    margin: 23.5rem auto 15.3rem auto;
+    margin: 19.5rem auto 15.3rem auto;
 
     p:nth-child(1) {
         @include heading-sub (0,$color-green-dark);
