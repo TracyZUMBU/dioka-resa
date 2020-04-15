@@ -4,7 +4,7 @@ import peigne from '../assets/icons/peigne_icone.png'
 import avatar from '../assets/icons/avatar_icone.png'
 import etoiles from '../assets/icons/etoiles_icone.png'
 import charte from '../assets/pictures/charte_logo.png'
-import HgsteaderGreen from './HeaderGreen'
+import HeaderGreen from './HeaderGreen'
 
 
 
