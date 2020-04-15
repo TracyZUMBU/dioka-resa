@@ -5,13 +5,22 @@
     display: inline-block;
     border-radius: 2.8rem;
     font-family: $font-Medium;
+    font-size: $size-medium;
     &:visited{
         color: inherit;
     }
+    
     &--pink {
         
-        font-size: $size-medium;
         background-color: $color-pink;
+    }
+
+    &--blue {
+        background-color: $color-blue;
+    }
+
+    &--border {
+        border: 0.05rem $color-green-dark solid;
     }
 
 
