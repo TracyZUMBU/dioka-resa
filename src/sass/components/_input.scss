@@ -16,7 +16,7 @@ form{
         &::placeholder {
             color: $color-green-dark;
             
-    @include roman_medium
+    @include roman_medium;
 
             opacity:1
         }
