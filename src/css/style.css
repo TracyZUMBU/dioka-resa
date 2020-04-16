@@ -255,15 +255,19 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
 
 .btn {
   text-decoration: none;
-  padding: 1.9rem 10.45rem;
+  padding: 1.8rem 9.8rem;
   display: inline-block;
   border-radius: 2.8rem;
   font-family: "Medium";
-  font-size: 1.65rem; }
+  font-size: 1.65rem;
+  width: 53rem;
+  text-align: center; }
   .btn:visited {
     color: inherit; }
   .btn--pink {
     background-color: #FFF0F0; }
+  .btn--white {
+    background-color: white; }
   .btn--blue {
     background-color: #D3E2E5; }
   .btn--border {
@@ -340,19 +344,73 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
 .login {
   display: flex;
   flex-direction: column;
-  height: 100vh; }
+  height: 100vh;
+  text-align: center; }
+  .login a {
+    color: inherit;
+    display: block; }
+  .login .forget_pwd {
+    font-size: 1.23rem;
+    margin-bottom: 3.1rem;
+    margin-top: 2rem; }
   .login__box {
     display: flex; }
     .login__box__image {
-      width: 50%;
+      width: 35%;
       position: sticky;
       border: 2px red solid;
       background-image: url(../assets/pictures/image_3_home.png);
       background-position: bottom;
       background-size: cover; }
     .login__box__content {
-      width: 50%;
-      position: relative; }
+      background-color: #D3E2E5;
+      width: 65%;
+      border: 2px solid blue;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .login__box__social-media {
+      width: max-content;
+      display: flex;
+      flex-direction: column; }
+
+.sign-up {
+  font-size: 1.65rem;
+  margin-top: 3.5rem;
+  margin-bottom: 6rem; }
+  .sign-up p {
+    font-family: "Roman"; }
+  .sign-up a {
+    font-family: "Medium"; }
+
+form input {
+  border: none;
+  border-bottom: #707070 0.05rem solid;
+  padding-bottom: 2rem;
+  background-color: transparent;
+  width: 100%; }
+  form input:not(last-child) {
+    margin-bottom: 5rem; }
+  form input::placeholder {
+    color: #052C33;
+    font-size: 1.65rem;
+    font-family: "Roman"; }
+
+hr {
+  margin: 4rem auto;
+  color: red;
+  width: 100%;
+  position: relative; }
+  hr::after {
+    content: '';
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 30px; }
 
 .header-white {
   height: 8rem;

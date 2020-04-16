@@ -1,16 +1,27 @@
 .login {
- 
   display: flex;
   flex-direction: column;
   height: 100vh;
+  text-align: center;
 
+  a {
+    color: inherit;
+    display: block;
+  }
+  
+  .forget_pwd{
+    font-size: $size-small;
+    margin-bottom: 3.1rem;
+    margin-top: 2rem;
+    
+  }
   &__box {
     
     display: flex;
-   
-
+    
+    
     &__image {
-      width: 50%;
+      width: 35%;
       
       position : sticky;
       border: 2px red solid;
@@ -18,10 +29,37 @@
       background-position: bottom;
       background-size: cover;
     }
-
+    
     &__content {
-      width: 50%;
-      position: relative;
+      background-color: $color-blue;
+      width: 65%;
+      // position: relative;
+      border: 2px solid blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+       
     }
+
+    &__social-media {
+      width: max-content;
+      display: flex;
+      flex-direction: column;
+      
+     }
+     
   }
+}
+
+.sign-up {
+  font-size: $size-medium;
+  margin-top: 3.5rem;
+  margin-bottom: 6rem;
+p{
+  font-family: $font-Roman;
+}
+a{
+  font-family: $font-Medium;
+}
 }

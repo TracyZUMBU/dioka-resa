@@ -1,0 +1,45 @@
+form{
+
+    
+    input {
+        border: none;
+        border-bottom: $color-light-grey 0.05rem solid;
+        padding-bottom: 2rem;
+        background-color: transparent;
+        width: 100%;
+
+        &:not(last-child){
+    
+    margin-bottom: 5rem;
+        }
+
+        &::placeholder {
+            color: $color-green-dark;
+            font-size: $size-medium;
+            font-family: $font-Roman;
+        }
+        
+    }
+} 
+
+hr {
+    margin : 4rem auto;
+    color: red;
+    width: 100%;
+    position: relative;
+
+    &::after{
+        content: '';
+        position: absolute;
+        right: 50%;
+        transform: translateX(-50%);
+        bottom: 50%;
+        background-color: black;
+       
+        border-radius: 50%;
+        height: 20px;
+        width: 30px;
+    }
+
+
+}

@@ -1,11 +1,14 @@
 .btn {
             
     text-decoration: none;
-    padding:1.9rem 10.45rem;
+    padding: 1.8rem 9.8rem;
     display: inline-block;
     border-radius: 2.8rem;
     font-family: $font-Medium;
     font-size: $size-medium;
+    width: 53rem;
+    
+    text-align: center;
     &:visited{
         color: inherit;
     }
@@ -13,6 +16,10 @@
     &--pink {
         
         background-color: $color-pink;
+    }
+
+    &--white {
+        background-color: white;
     }
 
     &--blue {
