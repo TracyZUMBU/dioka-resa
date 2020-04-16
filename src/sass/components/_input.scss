@@ -3,7 +3,7 @@ form{
     
     input {
         border: none;
-        border-bottom: $color-light-grey 0.05rem solid;
+        border-bottom: $color-grey 0.05rem solid;
         padding-bottom: 2rem;
         background-color: transparent;
         width: 100%;
@@ -15,8 +15,9 @@ form{
 
         &::placeholder {
             color: $color-green-dark;
-            font-size: $size-medium;
-            font-family: $font-Roman;
+            
+    @include roman_medium
+
             opacity:1
         }
         
@@ -24,11 +25,14 @@ form{
 } 
 
 hr {
-    margin : 4rem auto;
-    color: red;
+    
+    
     width: 100%;
     position: relative;
-
+    margin-top: 1.3rem;
+    margin-bottom:5rem;
+    color:$color-light-grey;
+    
     // &::after{
     //     content: '';
     //     position: absolute;
@@ -44,3 +48,6 @@ hr {
 
 
 }
+
+
+

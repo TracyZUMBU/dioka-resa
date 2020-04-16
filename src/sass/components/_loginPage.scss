@@ -26,9 +26,10 @@
       
       position : sticky;
       
-      background-image: url(../assets/pictures/image_3_home.png);
+      background-image: url(../assets/pictures/image_connexion.png);
       background-position: bottom;
       background-size: cover;
+      
     }
     
     &__content {
@@ -61,15 +62,10 @@
 }
 
 .sign-up {
-  font-size: $size-medium;
+  
   margin-top: 3.5rem;
   margin-bottom: 6rem;
-p{
-  font-family: $font-Roman;
-}
-a{
-  font-family: $font-Medium;
-}
+
 }
 
 .last-input {

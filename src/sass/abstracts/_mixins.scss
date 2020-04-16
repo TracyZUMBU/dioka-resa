@@ -63,4 +63,10 @@
 
 @mixin roman_medium {
     font-size: $size-medium;
+    font-family: $font-Roman;
+}
+
+@mixin medium_medium {
+    font-size: $size-medium;
+    font-family:$font-Medium;
 }

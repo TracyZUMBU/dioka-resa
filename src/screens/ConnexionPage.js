@@ -22,10 +22,11 @@ export default function ConnexionPage() {
               <ButtonBlueBorder text="Continuer avec Facebook" />
               <ButtonBlueBorder text="Continuer avec Google" />
               </div>
-          
+              
               <hr></hr>
-              <p class="roman_medium">ou</p>
-              <hr></hr>
+
+              
+              
               <form action="" method="">
                 <p>
                   <input class type="text" name="email" placeholder="E-mail" />
@@ -41,8 +42,8 @@ export default function ConnexionPage() {
               <a href="#" class="forget_pwd">j'ai oublié mon mot de passe</a>
               <ButtonWhite text="Se connecter" />
               <div class="sign-up">
-                <p>vous n'avez pas encore de compte,</p>
-                <a href="#">inscrivez-vous par ici</a>
+                <p class="roman_medium">vous n'avez pas encore de compte,</p>
+                <a class="medium_medium"href="#">inscrivez-vous par ici</a>
                 </div>
             </div>
 

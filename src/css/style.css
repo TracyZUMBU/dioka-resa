@@ -15,6 +15,14 @@ body {
 span {
   display: block; }
 
+.roman_medium {
+  font-size: 1.65rem;
+  font-family: "Roman"; }
+
+.medium_medium {
+  font-size: 1.65rem;
+  font-family: "Medium"; }
+
 @font-face {
   font-family: 'Light';
   src: url("../assets/fonts/NeueHaasGrotesk/NeueHaasDisplay-Light.eot");
@@ -360,7 +368,7 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
     .login__box__image {
       width: 35%;
       position: sticky;
-      background-image: url(../assets/pictures/image_3_home.png);
+      background-image: url(../assets/pictures/image_connexion.png);
       background-position: bottom;
       background-size: cover; }
     .login__box__content {
@@ -381,13 +389,8 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
   margin-bottom: 1.3rem; }
 
 .sign-up {
-  font-size: 1.65rem;
   margin-top: 3.5rem;
   margin-bottom: 6rem; }
-  .sign-up p {
-    font-family: "Roman"; }
-  .sign-up a {
-    font-family: "Medium"; }
 
 .last-input {
   margin-bottom: 0; }
@@ -407,10 +410,11 @@ form input {
     opacity: 1; }
 
 hr {
-  margin: 4rem auto;
-  color: red;
   width: 100%;
-  position: relative; }
+  position: relative;
+  margin-top: 1.3rem;
+  margin-bottom: 5rem;
+  color: #00000029; }
 
 .header-white {
   height: 8rem;
