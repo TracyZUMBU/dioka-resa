@@ -60,3 +60,7 @@
     top: 0;
     z-index: 1;
 }
+
+@mixin roman_medium {
+    font-size: $size-medium;
+}

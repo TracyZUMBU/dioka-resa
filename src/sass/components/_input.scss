@@ -17,6 +17,7 @@ form{
             color: $color-green-dark;
             font-size: $size-medium;
             font-family: $font-Roman;
+            opacity:1
         }
         
     }
@@ -28,18 +29,18 @@ hr {
     width: 100%;
     position: relative;
 
-    &::after{
-        content: '';
-        position: absolute;
-        right: 50%;
-        transform: translateX(-50%);
-        bottom: 50%;
-        background-color: black;
+    // &::after{
+    //     content: '';
+    //     position: absolute;
+    //     right: 50%;
+    //     transform: translateX(-50%);
+    //     bottom: 50%;
+    //     background-color: black;
        
-        border-radius: 50%;
-        height: 20px;
-        width: 30px;
-    }
+    //     border-radius: 50%;
+    //     height: 20px;
+    //     width: 30px;
+    // }
 
 
 }

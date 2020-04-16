@@ -17,6 +17,7 @@
   }
   &__box {
     
+    height: calc(100% - 8rem);
     display: flex;
     
     
@@ -24,7 +25,7 @@
       width: 35%;
       
       position : sticky;
-      border: 2px red solid;
+      
       background-image: url(../assets/pictures/image_3_home.png);
       background-position: bottom;
       background-size: cover;
@@ -34,12 +35,14 @@
       background-color: $color-blue;
       width: 65%;
       // position: relative;
-      border: 2px solid blue;
+     
         display: flex;
         flex-direction: column;
-        align-items: center;
-       
-       
+        align-items: center;     
+        padding-top: 16rem;
+        overflow: scroll;
+         
+  
     }
 
     &__social-media {
@@ -50,6 +53,11 @@
      }
      
   }
+}
+
+.button_social{
+  margin-top: 8.4rem;
+  margin-bottom: 1.3rem;
 }
 
 .sign-up {
@@ -63,3 +71,9 @@ a{
   font-family: $font-Medium;
 }
 }
+
+.last-input {
+  margin-bottom: 0;
+  
+}
+ 

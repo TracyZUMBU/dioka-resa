@@ -271,6 +271,7 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
   .btn--blue {
     background-color: #D3E2E5; }
   .btn--border {
+    margin-bottom: 2.2rem;
     border: 0.05rem #052C33 solid; }
 
 .text-box--left {
@@ -354,25 +355,30 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
     margin-bottom: 3.1rem;
     margin-top: 2rem; }
   .login__box {
+    height: calc(100% - 8rem);
     display: flex; }
     .login__box__image {
       width: 35%;
       position: sticky;
-      border: 2px red solid;
       background-image: url(../assets/pictures/image_3_home.png);
       background-position: bottom;
       background-size: cover; }
     .login__box__content {
       background-color: #D3E2E5;
       width: 65%;
-      border: 2px solid blue;
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      padding-top: 16rem;
+      overflow: scroll; }
     .login__box__social-media {
       width: max-content;
       display: flex;
       flex-direction: column; }
+
+.button_social {
+  margin-top: 8.4rem;
+  margin-bottom: 1.3rem; }
 
 .sign-up {
   font-size: 1.65rem;
@@ -382,6 +388,9 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
     font-family: "Roman"; }
   .sign-up a {
     font-family: "Medium"; }
+
+.last-input {
+  margin-bottom: 0; }
 
 form input {
   border: none;
@@ -394,23 +403,14 @@ form input {
   form input::placeholder {
     color: #052C33;
     font-size: 1.65rem;
-    font-family: "Roman"; }
+    font-family: "Roman";
+    opacity: 1; }
 
 hr {
   margin: 4rem auto;
   color: red;
   width: 100%;
   position: relative; }
-  hr::after {
-    content: '';
-    position: absolute;
-    right: 50%;
-    transform: translateX(-50%);
-    bottom: 50%;
-    background-color: black;
-    border-radius: 50%;
-    height: 20px;
-    width: 30px; }
 
 .header-white {
   height: 8rem;
