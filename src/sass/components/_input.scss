@@ -24,7 +24,7 @@ form{
     }
 } 
 
-hr {
+.hr {
     
     
     width: 100%;
@@ -34,17 +34,14 @@ hr {
     color:$color-light-grey;
    
     &::after{
-        content: 'ou';
-       
-        @include absolute-center (50%);
-        background-color: $color-blue;
-        @include roman_medium;
-       
-        height: 20px;
-        width: 30px;
-        color:$color-green-dark;
-        
-        padding: 0 5rem 0 3rem;
+        @include hr_after ($color-blue)
+    }
+
+    &--pink {
+
+    &::after {
+        @include hr_after ($color-pink)
+    }
     }
 
 }

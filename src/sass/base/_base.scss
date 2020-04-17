@@ -23,3 +23,7 @@ span {
 .medium_medium{
   @include medium_medium
 }
+
+.roman_small {
+  @include roman_small;
+}

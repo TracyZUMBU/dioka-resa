@@ -23,6 +23,10 @@ span {
   font-size: 1.65rem;
   font-family: "Medium"; }
 
+.roman_small {
+  font-size: 1.23rem;
+  font-family: "Roman"; }
+
 @font-face {
   font-family: 'Light';
   src: url("../assets/fonts/NeueHaasGrotesk/NeueHaasDisplay-Light.eot");
@@ -263,12 +267,12 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
 
 .btn {
   text-decoration: none;
-  padding: 1.8rem 9.8rem;
+  padding: 2rem 9.8rem;
   display: inline-block;
   border-radius: 2.8rem;
   font-family: "Medium";
   font-size: 1.65rem;
-  width: 53rem;
+  width: 45rem;
   text-align: center; }
   .btn:visited {
     color: inherit; }
@@ -277,7 +281,7 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
   .btn--white {
     background-color: white; }
   .btn--blue {
-    background-color: #D3E2E5; }
+    background-color: transparent; }
   .btn--border {
     margin-bottom: 2.2rem;
     border: 0.05rem #052C33 solid; }
@@ -356,10 +360,8 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
   height: 100vh;
   text-align: center; }
   .login a {
-    color: inherit;
-    display: block; }
-  .login .forget_pwd {
-    font-size: 1.23rem;
+    color: inherit; }
+  .login .margin {
     margin-bottom: 3.1rem;
     margin-top: 2rem; }
   .login__box {
@@ -371,6 +373,8 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
       background-image: url(../assets/pictures/image_connexion.png);
       background-position: bottom;
       background-size: cover; }
+      .login__box__image--pink {
+        background-image: url(../assets/pictures/image_inscription.png); }
     .login__box__content {
       background-color: #D3E2E5;
       width: 65%;
@@ -379,6 +383,8 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
       align-items: center;
       padding-top: 16rem;
       overflow: scroll; }
+      .login__box__content--pink {
+        background-color: #FFF0F0; }
     .login__box__social-media {
       width: max-content;
       display: flex;
@@ -387,6 +393,14 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
 .button_social {
   margin-top: 8.4rem;
   margin-bottom: 1.3rem; }
+  .button_social__box-logo {
+    position: relative;
+    width: 100%; }
+  .button_social__logo {
+    position: absolute;
+    top: 25%;
+    height: 2.5rem;
+    left: 3.4rem; }
 
 .sign-up {
   margin-top: 3.5rem;
@@ -394,6 +408,23 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
 
 .last-input {
   margin-bottom: 0; }
+
+.termes {
+  margin: 6rem auto 5rem auto; }
+
+.newsletter {
+  display: flex;
+  margin: 0 auto 6rem auto;
+  align-items: center; }
+
+#newsletter {
+  transform: scale(2); }
+
+.checkbox {
+  margin-right: 2rem; }
+
+a.btn:nth-child(6) {
+  margin-bottom: 6rem; }
 
 form input {
   border: none;
@@ -409,13 +440,13 @@ form input {
     font-family: "Roman";
     opacity: 1; }
 
-hr {
+.hr {
   width: 100%;
   position: relative;
   margin-top: 1.3rem;
   margin-bottom: 5rem;
   color: #00000029; }
-  hr::after {
+  .hr::after {
     content: 'ou';
     position: absolute;
     top: 50%;
@@ -423,6 +454,20 @@ hr {
     transform: translate(-50%, -50%);
     text-align: center;
     background-color: #D3E2E5;
+    font-size: 1.65rem;
+    font-family: "Roman";
+    height: 20px;
+    width: 30px;
+    color: #052C33;
+    padding: 0 5rem 0 3rem; }
+  .hr--pink::after {
+    content: 'ou';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #FFF0F0;
     font-size: 1.65rem;
     font-family: "Roman";
     height: 20px;
