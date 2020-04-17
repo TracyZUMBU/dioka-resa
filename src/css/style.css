@@ -415,6 +415,20 @@ hr {
   margin-top: 1.3rem;
   margin-bottom: 5rem;
   color: #00000029; }
+  hr::after {
+    content: 'ou';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #D3E2E5;
+    font-size: 1.65rem;
+    font-family: "Roman";
+    height: 20px;
+    width: 30px;
+    color: #052C33;
+    padding: 0 5rem 0 3rem; }
 
 .header-white {
   height: 8rem;
