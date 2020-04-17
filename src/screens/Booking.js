@@ -1,5 +1,6 @@
 import React from 'react'
 import logodioka from '../assets/pictures/logo-dioka.svg'
+import Button from '../components/ButtonPink'
 
 
 export default function Booking() {
@@ -23,7 +24,7 @@ export default function Booking() {
 
             </h1>
         
-        <a href="" class="btn btn--pink">Retour à la page d'accueil</a>
+        <Button text="Retour à la page d'accueil"/>
     </div>
     
 </div>

@@ -15,3 +15,15 @@ color:$color-green-dark;}
 span {
   display:block;
 }
+
+.roman_medium{
+  @include roman_medium
+}
+
+.medium_medium{
+  @include medium_medium
+}
+
+.roman_small {
+  @include roman_small;
+}

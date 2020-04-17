@@ -42,3 +42,48 @@
     font-family: $font-Roman;
     color: ($color)
 }
+
+@mixin backgroundImage ($paddingT, $backPosition) {
+    width: 100%;
+    padding-top:$paddingT ;
+    background-size: cover;
+    background-position: $backPosition;
+}
+
+@mixin header-green ($position) {
+    height: 8rem; 
+    background-color: $color-green-dark;
+    padding-left: 6.3rem ;
+    padding-right: 8.5rem;
+    position: -webkit-sticky;
+    position: $position;
+    top: 0;
+    z-index: 1;
+}
+
+@mixin roman_medium {
+    font-size: $size-medium;
+    font-family: $font-Roman;
+}
+
+@mixin medium_medium {
+    font-size: $size-medium;
+    font-family:$font-Medium;
+}
+
+@mixin roman_small {
+    font-size: $size-small;
+    font-family:$font-Roman;
+}
+
+@mixin hr_after ($color) {
+    content: 'ou';
+    @include absolute-center (50%);
+    background-color: $color;
+    @include roman_medium;
+    height: 20px;
+    width: 30px;
+    color:$color-green-dark;
+    padding: 0 5rem 0 3rem;
+}
+

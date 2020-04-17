@@ -15,6 +15,18 @@ body {
 span {
   display: block; }
 
+.roman_medium {
+  font-size: 1.65rem;
+  font-family: "Roman"; }
+
+.medium_medium {
+  font-size: 1.65rem;
+  font-family: "Medium"; }
+
+.roman_small {
+  font-size: 1.23rem;
+  font-family: "Roman"; }
+
 @font-face {
   font-family: 'Light';
   src: url("../assets/fonts/NeueHaasGrotesk/NeueHaasDisplay-Light.eot");
@@ -188,8 +200,7 @@ span {
 .presentation-box {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  border: 2px solid red; }
+  width: 50%; }
   .presentation-box .presentation-box__story {
     padding: 8rem 10rem;
     white-space: nowrap; }
@@ -256,15 +267,24 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
 
 .btn {
   text-decoration: none;
-  padding: 1.9rem 10.45rem;
+  padding: 2rem 9.8rem;
   display: inline-block;
   border-radius: 2.8rem;
-  font-family: "Medium"; }
+  font-family: "Medium";
+  font-size: 1.65rem;
+  width: 45rem;
+  text-align: center; }
   .btn:visited {
     color: inherit; }
   .btn--pink {
-    font-size: 1.65rem;
     background-color: #FFF0F0; }
+  .btn--white {
+    background-color: white; }
+  .btn--blue {
+    background-color: transparent; }
+  .btn--border {
+    margin-bottom: 2.2rem;
+    border: 0.05rem #052C33 solid; }
 
 .text-box--left {
   position: absolute;
@@ -334,6 +354,127 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
     white-space: nowrap;
     background-position: top; }
 
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center; }
+  .login a {
+    color: inherit; }
+  .login .margin {
+    margin-bottom: 3.1rem;
+    margin-top: 2rem; }
+  .login__box {
+    height: calc(100% - 8rem);
+    display: flex; }
+    .login__box__image {
+      width: 35%;
+      position: sticky;
+      background-image: url(../assets/pictures/image_connexion.png);
+      background-position: bottom;
+      background-size: cover; }
+      .login__box__image--pink {
+        background-image: url(../assets/pictures/image_inscription.png); }
+    .login__box__content {
+      background-color: #D3E2E5;
+      width: 65%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 16rem;
+      overflow: scroll; }
+      .login__box__content--pink {
+        background-color: #FFF0F0; }
+    .login__box__social-media {
+      width: max-content;
+      display: flex;
+      flex-direction: column; }
+
+.button_social {
+  margin-top: 8.4rem;
+  margin-bottom: 1.3rem; }
+  .button_social__box-logo {
+    position: relative;
+    width: 100%; }
+  .button_social__logo {
+    position: absolute;
+    top: 25%;
+    height: 2.5rem;
+    left: 3.4rem; }
+
+.sign-up {
+  margin-top: 3.5rem;
+  margin-bottom: 6rem; }
+
+.last-input {
+  margin-bottom: 0; }
+
+.termes {
+  margin: 6rem auto 5rem auto; }
+
+.newsletter {
+  display: flex;
+  margin: 0 auto 6rem auto;
+  align-items: center; }
+
+#newsletter {
+  transform: scale(2); }
+
+.checkbox {
+  margin-right: 2rem; }
+
+a.btn:nth-child(6) {
+  margin-bottom: 6rem; }
+
+form input {
+  border: none;
+  border-bottom: #707070 0.05rem solid;
+  padding-bottom: 2rem;
+  background-color: transparent;
+  width: 100%; }
+  form input:not(last-child) {
+    margin-bottom: 5rem; }
+  form input::placeholder {
+    color: #052C33;
+    font-size: 1.65rem;
+    font-family: "Roman";
+    opacity: 1; }
+
+.hr {
+  width: 100%;
+  position: relative;
+  margin-top: 1.3rem;
+  margin-bottom: 5rem;
+  color: #00000029; }
+  .hr::after {
+    content: 'ou';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #D3E2E5;
+    font-size: 1.65rem;
+    font-family: "Roman";
+    height: 20px;
+    width: 30px;
+    color: #052C33;
+    padding: 0 5rem 0 3rem; }
+  .hr--pink::after {
+    content: 'ou';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #FFF0F0;
+    font-size: 1.65rem;
+    font-family: "Roman";
+    height: 20px;
+    width: 30px;
+    color: #052C33;
+    padding: 0 5rem 0 3rem; }
+
 .header-white {
   height: 8rem;
   border-bottom: black solid .1rem;
@@ -355,6 +496,16 @@ div.assets__box:nth-child(1) > img:nth-child(1) {
   position: sticky;
   top: 0;
   z-index: 1; }
+  .header-green--static {
+    grid-area: header;
+    height: 8rem;
+    background-color: #052C33;
+    padding-left: 6.3rem;
+    padding-right: 8.5rem;
+    position: -webkit-sticky;
+    position: static;
+    top: 0;
+    z-index: 1; }
   .header-green__logo {
     height: 2.5rem;
     margin-top: 2.5rem;

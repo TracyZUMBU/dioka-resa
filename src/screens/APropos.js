@@ -4,21 +4,13 @@ import peigne from '../assets/icons/peigne_icone.png'
 import avatar from '../assets/icons/avatar_icone.png'
 import etoiles from '../assets/icons/etoiles_icone.png'
 import charte from '../assets/pictures/charte_logo.png'
+import HeaderGreen from '../components/HeaderGreen'
 
 
 export default function APropos() {
     return (
         <>
-        <div class="header-green">
-            <img src={logoDioka} alt='logo of dioka' class='header-green__logo'></img>
-            <nav>
-                <ul>
-                    <li><a href='#'>A propos</a></li>
-                    <li><a href='#'>Réservez</a></li>
-                    <li><a href='#'>Connexion</a></li>
-                </ul>
-            </nav>
-        </div>
+      <HeaderGreen/>
         <div class="section-image">
             <div class="text-box--left">
 

@@ -1,0 +1,122 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+
+  a {
+    color: inherit;
+    
+    
+  }
+
+  .margin {
+    margin-bottom: 3.1rem;
+    margin-top: 2rem;
+  }
+  
+
+  &__box {
+    
+    height: calc(100% - 8rem);
+    display: flex;
+    
+    
+    &__image {
+      width: 35%;
+      
+      position : sticky;
+      
+      background-image: url(../assets/pictures/image_connexion.png);
+      background-position: bottom;
+      background-size: cover;
+
+      &--pink{
+        background-image: url(../assets/pictures/image_inscription.png);
+      }
+      
+    }
+    
+    &__content {
+      background-color: $color-blue;
+      width: 65%;
+     
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+        padding-top: 16rem;
+        overflow: scroll;
+
+        &--pink {
+          background-color: $color-pink;
+        }
+         
+  
+    }
+
+    &__social-media {
+      width: max-content;
+      display: flex;
+      flex-direction: column;
+      
+     }
+     
+  }
+}
+
+.button_social{
+  margin-top: 8.4rem;
+  margin-bottom: 1.3rem;
+  &__box-logo{
+    position: relative;
+    width: 100%;
+
+  }
+
+  &__logo{
+
+    position: absolute;
+    top: 25%;
+    height: 2.5rem;
+    left: 3.4rem;
+  }
+}
+
+.sign-up {
+  
+  margin-top: 3.5rem;
+  margin-bottom: 6rem;
+
+}
+
+.last-input {
+  margin-bottom: 0;
+  
+}
+
+.termes {
+  margin : 6rem auto 5rem auto;
+}
+
+.newsletter {
+  display: flex;
+  margin: 0 auto 6rem auto;
+  align-items: center;
+}
+
+#newsletter {
+  transform: scale(2);
+ 
+}
+
+.checkbox{
+  margin-right: 2rem;
+}
+
+
+//bouton se connecter de la page "inscrivez-vous"
+a.btn:nth-child(6) {
+  margin-bottom: 6rem;
+ }
+ 
