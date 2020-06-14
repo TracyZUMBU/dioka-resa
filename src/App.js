@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './css/style.css';
 
 import Booking from './screens/Booking'
@@ -9,15 +9,16 @@ import InscriptionPage from './screens/InscriptionPage';
 
 const App = () => {
   return (
-    <div className="App">
-  
-      {/* <Booking /> */}
-      {/* <APropos /> */}
-      {/* <ConnexionPage/> */}
-      <InscriptionPage />
+    
+    <Router>
+      
+        <Route exact path="/" component={InscriptionPage}/>
+        <Route exact path="/Booked" component={Booking}/>
+        <Route exact path="/Apropos" component={APropos}/>
+        <Route exact path="/Connexion" component={ConnexionPage}/>
+    
+      </Router>
 
-  
-    </div>
   );
 }
 

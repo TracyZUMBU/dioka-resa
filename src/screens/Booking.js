@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import logodioka from '../assets/pictures/logo-dioka.svg'
 import Button from '../components/ButtonPink'
 
@@ -24,7 +25,7 @@ export default function Booking() {
 
             </h1>
         
-        <Button text="Retour à la page d'accueil"/>
+        <Link to="/"><Button text="Retour à la page d'accueil"/></Link>
     </div>
     
 </div>
